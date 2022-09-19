@@ -1,9 +1,8 @@
-package cohes01funcional;
+package cohefun012;
 
 //Cohesion coincidental
-public class FooBarMal {
+public class FooBarMalI {
 	 private SomeObject _bla = new SomeObject();
-	 private OtherObject otherObject=new OtherObject();
 
 	  public void FirstMethod() {
 	    _bla.FirstCall();
@@ -17,10 +16,5 @@ public class FooBarMal {
 	    _bla.ThirdCall();
 	  }
 	  
-	  public void oneMethod() {
-		otherObject.oneCall();
-	}
-	  public void twoMethod() {
-		otherObject.twoCall();
-	}
+	
 }

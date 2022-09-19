@@ -1,4 +1,4 @@
-package acop02marca;
+package acop021marca;
 
 public class Pedido2 {
 	public String fecha;
@@ -10,8 +10,5 @@ public class Pedido2 {
 		this.cliente=cliente;
 	}
 	 
-	public DatosFiscales getDatosFiscales() {
-		return this.cliente.datosFiscales;
-	}
 
 }

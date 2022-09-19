@@ -1,4 +1,4 @@
-package cohes01funcional;
+package cohes013funcional;
 
 class FooBar {
 	  private SomeObject _bla = new SomeObject();

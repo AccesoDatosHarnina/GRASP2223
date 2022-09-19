@@ -1,4 +1,4 @@
-package cohes01funcional;
+package cohefun011;
 
 //Cohesion coincidental
 public class FooBarMal {

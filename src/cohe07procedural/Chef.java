@@ -10,8 +10,9 @@ public class Chef {
 
         //Esta cohesion es temporal o cronologica
         //si no sigues este orden da error
-        dish.mix();
-        dish.cook();
-        dish.serve();
+//        dish.mix();
+//        dish.cook();
+//        dish.serve();
+        dish.prepare();
     }
 }

@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class RandomGenerator {
 	LinkedList<Integer> numbers;
+	int max=99;
 
 	public RandomGenerator() {
 		super();
@@ -21,6 +22,10 @@ public class RandomGenerator {
 		return numbers;
 	}
 
+	public boolean isMaxReached() {
+		return max<=getTotalNumbers();
+	}
+	
 	public int getTotalNumbers() {
 		int total=0;
 		for (Integer valor : numbers) {
