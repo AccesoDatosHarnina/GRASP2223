@@ -9,7 +9,7 @@ public class PajaroEnfadadoProblema
     //este metodo hace que la clase dependa mucho del interfaz de consola
     public void MostrarConsola()
     {
-        System.out.println("soy un pajaro enfadado");
+        System.out.println("no soy un pajaro enfadado");
     }
     
     public void MostrarError() {
