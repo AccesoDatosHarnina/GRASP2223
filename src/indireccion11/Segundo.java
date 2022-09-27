@@ -8,4 +8,5 @@ public class Segundo {
 		indireccionPrimero.comprueba(5, "nada");
 	}
 	
+
 }
